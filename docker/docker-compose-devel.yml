@@ -1,0 +1,19 @@
+services:
+  alliance-devel:
+    build:
+      context: .
+      dockerfile: ./devel.dockerfile
+    image: alliance-devel:ubuntu24.04
+    container_name: alliance-devel
+    restart: unless-stopped
+    environment:
+      - WORKSPACE=${WORKSPACE}
+    volumes:
+      - $WORKSPACE:/home/developer/alliance
+    command: ["sleep", "infinity"]
+    networks:
+      - host
+
+networks:
+  host:
+    driver: bridge
