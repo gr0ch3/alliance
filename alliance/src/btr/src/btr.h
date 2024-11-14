@@ -1,7 +1,7 @@
 /*------------------------------------------------------------\
 |                                                             |
 | This file is part of the Alliance CAD System Copyright      |
-| (C) Laboratoire LIP6 - Département ASIM Universite P&M Curie|
+| (C) Laboratoire LIP6 - Dï¿½partement ASIM Universite P&M Curie|
 |                                                             |
 | Home page      : http://www-asim.lip6.fr/alliance/          |
 | E-mail         : mailto:alliance-users@asim.lip6.fr       |
@@ -43,6 +43,7 @@
 
 # ifndef BTR_102_H
 # define BTR_102_H
+  #include "bdd.h"
 
 /*------------------------------------------------------\
 |                                                       |
