@@ -27,3 +27,4 @@ dev/scripts/cppcheck/*
 archives/
 cvsCommit.txt
 gitCommit.txt
+.DS_Store
